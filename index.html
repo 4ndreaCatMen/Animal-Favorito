@@ -4,36 +4,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web sobre delfines</title>
-  <!-- Incluye los archivos CSS de Bootstrap -->
   <link rel="stylesheet" type="text/css" href="estilos.css">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <link rel="icon" href="logotipo_delfines.jpg" type="image/icon">
 </head>
-<body>
 
-  <header class="p-3 text-white">
-    <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-
-        <ul class="nav col-12 col-md-auto me-md-auto mb-2 mb-md-0">
-          <li><a href="#" class="nav-link px-2 text-secondary fs-4">Inicio</a></li>
-          <li><a href="#" class="nav-link px-2 text-white fs-4">Noticias</a></li>
-          <li><a href="#" class="nav-link px-2 text-white fs-4">Secciones</a></li>
-          <li><a href="#" class="nav-link px-2 text-white fs-4">Excursiones</a></li>
-          <li><a href="#" class="nav-link px-2 text-white fs-4">Cara Oculta</a></li>
-          <li><a href="#" class="nav-link px-2 text-white fs-4">Sobre mí</a></li>
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary" id="navbar">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse text-center" id="navbarCollapse">
+      
+      <div class="mx-auto">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" style="color: rgb(239, 239, 250); font-size: 20px; margin-right: 20px;">Inicio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#" style="color: rgb(239, 239, 250); font-size: 20px; margin-right: 20px;">Noticias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: rgb(239, 239, 250); font-size: 20px; margin-right: 20px;">Secciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: rgb(239, 239, 250); font-size: 20px; margin-right: 20px;">Excursiones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: rgb(239, 239, 250); font-size: 20px; margin-right: 20px;">Cara Oculta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: rgb(239, 239, 250); font-size: 20px; margin-right: 20px;">Sobre mí</a>
+          </li>
         </ul>
-
-        <form class="col-12 col-sm-auto mb-3 mb-sm-0 me-sm-3">
-          <input type="Buscar" class="form-control form-control-dark" placeholder="Buscar..." aria-label="Buscar">
-        </form>
-
-         
       </div>
-    </div><!-- /.container -->
-  </header>
+      <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Buscar..." aria-label="Buscar">
+        <button class="btn btn-outline-custom my-2 my-sm-0" type="submit">Buscar</button>
+      </form>
+    </div>
+  </nav>
+</header>
+
+<!-- /.container -->
+  
   <main>
-    <div class="fondo">
+    <div class="fondo align-items-center">
       <div class="px-5 pt-5 pb-3 text-center">
         <h1 class="display-5 fw-bold text-black-50">Tesoros del Mar: Descubriendo la Vida de los Delfines</h1>
         <div class="col-lg-6 mx-auto">
@@ -91,7 +108,7 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-  </div><!-- /.hero -->
+  </div>
 
   <div class="container" id="containerPrincipal">
     <h2>Últimas Noticias sobre Delfines</h2>
@@ -261,5 +278,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="javascript.js"></script>
 </body>
 </html>

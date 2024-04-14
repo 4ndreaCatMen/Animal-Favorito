@@ -1,19 +1,49 @@
 header {
   background-color: #e2eef900;
 }
-.card{
-  margin-left:50%;
+#navbar {
+  transition: top 0.3s; /* Agrega una transición suave al cambio de posición */
+}
+
+.nav-link {
+  color: rgb(219, 219, 226); /* Cambia "navy" por el color de texto que desees */
+  font-size: 20px; /* Cambia el tamaño del texto según sea necesario */
+  margin-right: 20px; /* Agrega margen derecho entre los elementos de navegación */
+}
+
+#color {
+  background-color: white; /* Cambia "yourBackgroundColor" por el color de fondo que desees */
+}
+
+.btn-outline-success {
+  color: white; /* Cambia "white" por el color de texto que desees */
+  border-color: rgb(255, 254, 254); /* Cambia "white" por el color del borde que desees */
+}
+
+.px-5.pt-5.pb-3.text-center {
+  margin-top: 50px; /* Ajusta este valor según sea necesario */
+}
+
+.nav-item {
+  margin-right: px; /* Ajusta este valor según sea necesario */
+  text-align: center;
+}
+
+.card {
+  margin-left: 50%;
 }
 
 .fondo {
   background-color: #0184b2;
-  background-image:url(fondo-oceanico.webp) ;
+  background-image: url(fondo-oceanico.webp);
   background-size: 100%; /* 100% de altura y tamaño automático para el ancho */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
-body{
-  background-image: linear-gradient(to bottom, #a1c4fd, #135173)
+
+body {
+  background-image: linear-gradient(to bottom, #a1c4fd, #135173);
 }
+
 .form-control {
   margin-right: 10px; /* Ajusta este valor según lo necesites */
 }
@@ -26,9 +56,7 @@ body{
   transform: scale(1.1);
 }
 
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
+/* CUSTOMIZE THE CAROUSEL -------------------------------------------------- */
 
 /* Carousel base class */
 .carousel {
@@ -44,30 +72,32 @@ body{
 .carousel-item {
   height: 32rem;
   background-color: rgba(255, 255, 255, 0);
- 
 }
+
 .carousel-item > img {
   position: absolute;
   bottom: 0%;
   left: 30%;
   min-width: 40%;
   height: 32rem;
- 
 }
+
 .carousel-inner .carousel-item.active > .first-slide {
   border: none;
 }
-* MARKETING CONTENT
--------------------------------------------------- */
+
+* MARKETING CONTENT -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
+
 .marketing h2 {
   font-weight: 400;
 }
+
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
@@ -80,13 +110,13 @@ body{
     position: relative;
     z-index: 9999;
   }
-  
+
   .hero {
     position: relative;
     z-index: 100;
     margin-top: -80px;
   }
-  
+
   /* Extended Spacing Utility Classes */
   .pt-md-10 { padding-top: 6rem !important; }
 }
