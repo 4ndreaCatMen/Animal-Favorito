@@ -1,47 +1,97 @@
-body {
-    background: linear-gradient(to bottom, #6BC6D9, #1C5379);
-  }
+header {
+  background-color: #e2eef900;
+}
+.card{
+  margin-left:50%;
+}
 
+.fondo {
+  background-color: #0184b2;
+  background-image:url(fondo-oceanico.webp) ;
+  background-size: 100%; /* 100% de altura y tamaño automático para el ancho */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+body{
+  background-image: linear-gradient(to bottom, #a1c4fd, #135173)
+}
+.form-control {
+  margin-right: 10px; /* Ajusta este valor según lo necesites */
+}
+
+.feature-image {
+  transition: transform 0.3s ease;
+}
+
+.feature-image:hover {
+  transform: scale(1.1);
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: rgba(255, 255, 255, 0);
  
-  .seccion {
-    padding: 50px 0;
-    background-color: rgba(252, 252, 252, 0.411); 
-    border-radius: 20px; 
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px; 
-    max-width: 800px;
-    margin-left: auto; 
-    margin-right: auto; 
-  }
+}
+.carousel-item > img {
+  position: absolute;
+  bottom: 0%;
+  left: 30%;
+  min-width: 40%;
+  height: 32rem;
+ 
+}
+.carousel-inner .carousel-item.active > .first-slide {
+  border: none;
+}
+* MARKETING CONTENT
+-------------------------------------------------- */
 
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+@media screen and (min-width: 768px) {
+  /* Make the header semi-transparent at 'md' and make the hero under below it */
+  header {
+    background-color: rgba(234, 225, 225, 0.365);
+    position: relative;
+    z-index: 9999;
+  }
   
-  .titulo-seccion {
-    text-align: center;
-    margin-bottom: 30px;
+  .hero {
+    position: relative;
+    z-index: 100;
+    margin-top: -80px;
   }
-  .card {
-    margin-bottom: 30px;
-  }
-  .card-img-top {
-    height: 300px;
-    object-fit: cover;
-  }
+  
+  /* Extended Spacing Utility Classes */
+  .pt-md-10 { padding-top: 6rem !important; }
+}
 
-
-  .publicidad {
-    position: fixed;
-    top: 0;
-    height: 100%;
-    width: 100px; 
-    background-color: #f0f0f0;
-    z-index: 1000; 
-    right: 20px;
-    left: 20px;
-    
-  }
-  .publicidad-izquierda {
-   
-  }
-  .publicidad-derecha {
-   
-  }
+.featured .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
