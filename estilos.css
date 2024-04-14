@@ -2,30 +2,29 @@ header {
   background-color: #e2eef900;
 }
 #navbar {
-  transition: top 0.3s; /* Agrega una transición suave al cambio de posición */
+  transition: top 0.3s; 
 }
 
 .nav-link {
-  color: rgb(219, 219, 226); /* Cambia "navy" por el color de texto que desees */
-  font-size: 20px; /* Cambia el tamaño del texto según sea necesario */
-  margin-right: 20px; /* Agrega margen derecho entre los elementos de navegación */
+  color: rgb(219, 219, 226); 
+  font-size: 20px; 
+  margin-right: 20px; 
 }
 
 #color {
-  background-color: white; /* Cambia "yourBackgroundColor" por el color de fondo que desees */
+  background-color: white; 
 }
 
 .btn-outline-success {
-  color: white; /* Cambia "white" por el color de texto que desees */
-  border-color: rgb(255, 254, 254); /* Cambia "white" por el color del borde que desees */
+  color: white; 
+  border-color: rgb(255, 254, 254); 
 }
 
 .px-5.pt-5.pb-3.text-center {
-  margin-top: 50px; /* Ajusta este valor según sea necesario */
+  margin-top: 50px; 
 }
 
-.nav-item {
-  margin-right: px; /* Ajusta este valor según sea necesario */
+.nav-item { 
   text-align: center;
 }
 
@@ -36,20 +35,20 @@ header {
 .fondo {
   background-color: #0184b2;
   background-image: url(fondo-oceanico.webp);
-  background-size: 100%; /* 100% de altura y tamaño automático para el ancho */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-size: 100%; 
+  background-repeat: no-repeat; 
 }
 
 body {
   background-image: linear-gradient(to bottom, #a1c4fd, #135173);
 }
 #containerPrincipal {
-  width: 90%; /* Ancho personalizado */
-  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  width: 90%; 
+  margin: 0 auto; 
 }
 
 .form-control {
-  margin-right: 10px; /* Ajusta este valor según lo necesites */
+  margin-right: 10px; 
 }
 
 .feature-image {
@@ -60,19 +59,17 @@ body {
   transform: scale(1.1);
 }
 
-/* CUSTOMIZE THE CAROUSEL -------------------------------------------------- */
 
-/* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
 }
-/* Since positioning the image, we need to help out the caption */
+
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
 }
 
-/* Declare heights because of positioning of img element */
+
 .carousel-item {
   height: 32rem;
   background-color: rgba(255, 255, 255, 0);
@@ -89,5 +86,4 @@ body {
 .carousel-inner .carousel-item.active > .first-slide {
   border: none;
 }
-
 
