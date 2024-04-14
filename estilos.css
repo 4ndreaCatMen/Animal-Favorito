@@ -43,6 +43,10 @@ header {
 body {
   background-image: linear-gradient(to bottom, #a1c4fd, #135173);
 }
+#containerPrincipal {
+  width: 90%; /* Ancho personalizado */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
 
 .form-control {
   margin-right: 10px; /* Ajusta este valor según lo necesites */
@@ -86,42 +90,4 @@ body {
   border: none;
 }
 
-* MARKETING CONTENT -------------------------------------------------- */
 
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-.marketing h2 {
-  font-weight: 400;
-}
-
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
-}
-
-@media screen and (min-width: 768px) {
-  /* Make the header semi-transparent at 'md' and make the hero under below it */
-  header {
-    background-color: rgba(234, 225, 225, 0.365);
-    position: relative;
-    z-index: 9999;
-  }
-
-  .hero {
-    position: relative;
-    z-index: 100;
-    margin-top: -80px;
-  }
-
-  /* Extended Spacing Utility Classes */
-  .pt-md-10 { padding-top: 6rem !important; }
-}
-
-.featured .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
