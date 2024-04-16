@@ -87,3 +87,23 @@ body {
   border: none;
 }
 
+.ad-banner-top,
+.ad-banner-bottom {
+  position: fixed;
+  width: 100%;
+  background-color: #fff; 
+  z-index: 1000; 
+}
+
+.ad-banner-top {
+  top: 0;
+}
+
+.ad-banner-bottom {
+  bottom: 0;
+}
+
+.content {
+  margin-top: 100px; 
+}
+
